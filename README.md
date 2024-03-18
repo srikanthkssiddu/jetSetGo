@@ -1,57 +1,28 @@
-Getting Started with Create React App
-This project was bootstrapped with Create React App.
+ Flight Booking App
 
-Available Scripts
-In the project directory, you can run:
+This is a mobile application developed using React Native and TypeScript for booking flights. It allows users to view available flights, filter them based on various criteria, and book tickets.
 
-npm start
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in your browser.
+## Features
 
-The page will reload when you make changes.
-You may also see any lint errors in the console.
+- View available flights
+- Filter flights by airline, price, etc.
+- Book tickets for selected flights
+- View booking details and ticket information
 
-npm test
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
+## Technologies Used
 
-npm run build
-Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React Native
+- TypeScript
+- React Navigation for navigation between screens
+- fetch for making HTTP requests to backend API
+- UI libraries like React Native elements, vector icons and many more libraries
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
 
-See the section about deployment for more information.
+please find the screenshots below
 
-npm run eject
-Note: this is a one-way operation. Once you eject, you can't go back!
 
-If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-Learn More
-You can learn more in the Create React App documentation.
-
-To learn React, check out the React documentation.
-
-Code Splitting
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-Analyzing the Bundle Size
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-Making a Progressive Web App
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-Advanced Configuration
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-Deployment
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-npm run build fails to minify
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+(https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/4777efd2-5231-497a-8dbe-96b30dd33e02)
+(https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/e4be9006-a173-46ad-bd89-ea281a203950)
+(https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/21be42ec-fcbd-4a99-9cfe-ed5bf2c953cb)
+(https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/aedae614-c97f-439f-be58-3976abc98190)
+(https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/ae0a5412-d6bd-4736-aee9-70b436fe7476)
