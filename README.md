@@ -1,4 +1,4 @@
- Flight Booking App
+ Flight Booking App - jetSetGo
 
 This is a mobile application developed using React Native and TypeScript for booking flights. It allows users to view available flights, filter them based on various criteria, and book tickets.
 
@@ -8,7 +8,6 @@ This is a mobile application developed using React Native and TypeScript for boo
 - Filter flights by airline, price, etc.
 - Book tickets for selected flights
 - View booking details and ticket information
-
 ## Technologies Used
 
 - React Native
@@ -17,7 +16,7 @@ This is a mobile application developed using React Native and TypeScript for boo
 - fetch for making HTTP requests to backend API
 - UI libraries like React Native elements, vector icons and many more libraries
 
-
+please find the app working video - https://drive.google.com/file/d/1npcS3GAsp7gouRCK4pHoAUy7a0481pXf/view
 please find the screenshots below
 ![WhatsApp Image 2024-03-18 at 9 04 11 AM](https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/d1fe4baa-2e9d-4837-825f-f4546266cf72)
 ![WhatsApp Image 2024-03-18 at 9 04 11 AM (1)](https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/78a4a1aa-a90b-4335-a328-17d85513ce56)
