@@ -7,8 +7,8 @@ interface props {
 interface state {
   slot: string;
   error: string;
-  origin: string,
-      destination: string
+  origin: string;
+  destination: string;
 }
 
 export default class SplashScreenController extends Component<props, state> {
@@ -18,17 +18,21 @@ export default class SplashScreenController extends Component<props, state> {
       slot: "",
       error: "",
       origin: "",
-      destination: ""
+      destination: "",
     };
   }
 
-
   onGetStarted = () => {
-    this.props.navigation.navigate("landingPage",{origin:this.state.origin,destination:this.state.destination});
-};
+    this.props.navigation.navigate("landingPage", {
+      origin: this.state.origin,
+      destination: this.state.destination,
+    });
+  };
 
-getAllResults = () => {
-    this.props.navigation.navigate("landingPage",{origin:"",destination:""});
-};
-
+  getAllResults = () => {
+    this.props.navigation.navigate("landingPage", {
+      origin: "",
+      destination: "",
+    });
+  };
 }

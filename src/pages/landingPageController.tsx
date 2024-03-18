@@ -25,7 +25,7 @@ interface state {
   filtersText: string;
   filterModal: boolean;
   sortModal: boolean;
-  detailsModal:boolean;
+  detailsModal: boolean;
   sortText: string;
   flights: FlightData[];
   filteredFlights: FlightData[];
@@ -33,7 +33,7 @@ interface state {
   destination: string;
   dataLoading: boolean;
   uniqueAirlines: any[];
-  singleItem:any
+  singleItem: any;
 }
 
 export default class LandingPageController extends Component<props, state> {
@@ -45,7 +45,7 @@ export default class LandingPageController extends Component<props, state> {
       filtersText: "",
       filterModal: false,
       sortModal: false,
-      detailsModal:false,
+      detailsModal: false,
       sortText: "",
       flights: [],
       filteredFlights: [],
@@ -53,7 +53,7 @@ export default class LandingPageController extends Component<props, state> {
       destination: props.route ? props.route.params.destination : "",
       dataLoading: false,
       uniqueAirlines: [],
-      singleItem:null
+      singleItem: null,
     };
   }
 
@@ -126,9 +126,9 @@ export default class LandingPageController extends Component<props, state> {
     this.setState({ detailsModal: !this.state.detailsModal });
   };
 
-  setSingleItem =(item:any)=> {
-this.setState({singleItem:item})
-  }
+  setSingleItem = (item: any) => {
+    this.setState({ singleItem: item });
+  };
 
   selectSortOption = (text: string) => {
     this.setState({ sortText: text });
@@ -140,11 +140,16 @@ this.setState({singleItem:item})
       this.filterFlightsByAirline(this.state.filtersText);
     });
   };
-  clearFilters =()=> {
-    this.setState({sortText:'',filtersText:'', sortModal:false, filterModal:false})
-    
-    this.getFlightsData()
-  }
+  clearFilters = () => {
+    this.setState({
+      sortText: "",
+      filtersText: "",
+      sortModal: false,
+      filterModal: false,
+    });
+
+    this.getFlightsData();
+  };
   goBack = () => {
     this.props.navigation.navigate("splashScreen");
   };
