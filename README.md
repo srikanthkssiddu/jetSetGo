@@ -19,10 +19,9 @@ This is a mobile application developed using React Native and TypeScript for boo
 
 
 please find the screenshots below
+![WhatsApp Image 2024-03-18 at 9 04 11 AM](https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/d1fe4baa-2e9d-4837-825f-f4546266cf72)
+![WhatsApp Image 2024-03-18 at 9 04 11 AM (1)](https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/78a4a1aa-a90b-4335-a328-17d85513ce56)
+![WhatsApp Image 2024-03-18 at 9 04 11 AM (2)](https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/089bb255-e24b-42fa-bd34-1127dad68907)
+![WhatsApp Image 2024-03-18 at 9 04 11 AM (3)](https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/fb3a8ba9-2dc0-4888-8937-13a691fe6b85)
+![WhatsApp Image 2024-03-18 at 9 04 12 AM](https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/b4808489-f287-4ed7-bb81-2260e03814a8)
 
-
-https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/4777efd2-5231-497a-8dbe-96b30dd33e02
-https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/e4be9006-a173-46ad-bd89-ea281a203950
-https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/21be42ec-fcbd-4a99-9cfe-ed5bf2c953cb
-https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/aedae614-c97f-439f-be58-3976abc98190
-https://github.com/srikanthkssiddu/jetSetGo/assets/94665621/ae0a5412-d6bd-4736-aee9-70b436fe7476
